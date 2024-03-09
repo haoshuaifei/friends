@@ -11,13 +11,9 @@ body:
         - required: true
           label: 合法的、非营利性、无商业广告、无木马植入。
         - required: false
-          label: 有实质性原创内容的 HTTPS 站点，发布过至少 5 篇原创文章，内容题材不限。
-        - required: false
           label: 有独立域名，非免费域名。
         - required: false
           label: 博客已运行至少半年，非刚搭建好。
-        - required: false
-          label: 先友后链：与 xaoxuu 有至少**半年**的有效互动。
   - type: textarea
     id: config-file
     validations:
@@ -40,7 +36,7 @@ body:
     attributes:
       label: 友链地址
       description: 请输入您的友链页面地址。
-      placeholder: "如: https://xaoxuu.com/friends/"
+      placeholder: "如: https://shuaifeihao.top/friends/"
     validations:
       required: true
   - type: input
@@ -48,4 +44,4 @@ body:
     attributes:
       label: 友链仓库（可选）
       description: 如果您使用 issue 作为友链源，请附上 issue 仓库链接。
-      placeholder: "如: https://github.com/xaoxuu/friends/"
+      placeholder: "如: https://github.com/haoshuaifei/friends/"
